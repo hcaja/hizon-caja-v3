@@ -50,3 +50,112 @@ header .navigation a:not(:last-child){
 header .navigation a:hover{
     background: #fff;
 }
+
+.wlcm {
+    width: 270px;
+    height: 600px;
+    background-color: #355c7d;
+    opacity: 0.9;
+    padding: 55px;
+}
+
+.wlcm h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 90px;
+    color: antiquewhite;
+}
+
+.menu {
+    height: 200px;
+    position: absolute;
+    bottom: 530px;
+    right: 15px;
+    text-align: center;
+    font-weight: normal;
+    transform: translateX(-20%);
+    font-size: 65px;
+}
+
+.dr {
+    height: 200px;
+    position: absolute;
+    bottom: -100px;
+    right: 800px;
+    text-align: center;
+    font-weight: normal;
+    transform: translateX(-20%);
+    font-size: 20px;
+}
+
+.wlcm h4 {
+    text-align: justify;
+    color: antiquewhite;
+    font-weight: normal;
+}
+
+.wlcm h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 40px auto;
+    color: antiquewhite;
+}
+
+.menu {
+    height: 200px;
+    position: absolute;
+    bottom: 530px;
+    right: 10px;
+    text-align: center;
+    color: #355c7d;
+    font-weight: normal;
+    transform: translateX(-20%);
+    font-size: 60px;
+}
+
+footer {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.cool {
+    height: 200px;
+    position: absolute;
+    bottom: 20px;
+    right: 270px;
+    text-align: center;
+    color: #355c7d;
+    font-weight: normal;
+    transform: translateX(-20%);
+    font-family: cursive;
+}
+
+.cafe {
+    height: 200px;
+    position: absolute;
+    bottom: 20px;
+    right: 525px;
+    text-align: center;
+    color: #355c7d;
+    font-weight: normal;
+    transform: translateX(-20%);
+    font-family: cursive;
+}
+
+.fr {
+    height: 200px;
+    position: absolute;
+    bottom: 20px;
+    right: 525px;
+    text-align: center;
+    color: #355c7d;
+    font-weight: normal;
+    transform: translateX(-20%);
+    font-family: cursive;
+}
+
