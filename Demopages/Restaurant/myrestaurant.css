@@ -52,11 +52,12 @@ header .navigation a:hover{
 }
 
 .wlcm {
-    width: 270px;
-    height: 600px;
+    width: 300px;
+    height: 800px;
     background-color: #355c7d;
     opacity: 0.9;
     padding: 55px;
+    margin-left: 50px;
 }
 
 .wlcm h1 {
@@ -66,15 +67,13 @@ header .navigation a:hover{
     color: antiquewhite;
 }
 
-.menu {
-    height: 200px;
-    position: absolute;
-    bottom: 530px;
-    right: 15px;
+.opt form, input[type="button"] {
+    color: antiquewhite;
+    padding: 10px;
+    margin: -14px auto;
+    padding-left: 50px;
+    padding-right: 50px;
     text-align: center;
-    font-weight: normal;
-    transform: translateX(-20%);
-    font-size: 65px;
 }
 
 .dr {
@@ -103,15 +102,95 @@ header .navigation a:hover{
 }
 
 .menu {
-    height: 200px;
+    height: 150px;
     position: absolute;
     bottom: 530px;
-    right: 10px;
+    right: 25%;
     text-align: center;
     color: #355c7d;
     font-weight: normal;
     transform: translateX(-20%);
     font-size: 60px;
+}
+
+.pasta {
+    height: 100px;
+    position: absolute;
+    bottom: 400px;
+    right: 700px;
+    text-align: center;
+    color: #355c7d;
+    font-weight: normal;
+    transform: translateX(-20%);
+    font-family: cursive;
+}
+
+.flatbread {
+    height: 200px;
+    position: absolute;
+    bottom: 300px;
+    right: 350px;
+    text-align: center;
+    color: #355c7d;
+    font-weight: normal;
+    transform: translateX(-20%);
+    font-family: cursive;
+}
+
+.rice {
+    height: 150px;
+    position: absolute;
+    bottom: 150px;
+    right: 700px;
+    text-align: center;
+    color: #355c7d;
+    font-weight: normal;
+    transform: translateX(-20%);
+    font-family: cursive;
+}
+
+.chix {
+    height: 250px;
+    position: absolute;
+    bottom: 50px;
+    right: 350px;
+    text-align: center;
+    color: #355c7d;
+    font-weight: normal;
+    transform: translateX(-20%);
+    font-family: cursive;
+}
+
+.pasta2 img {
+    height: 150px;
+    position: absolute;
+    bottom: 350px;
+    right: 980px;
+    transform: translateX(-20%);
+}
+
+.flat img {
+    height: 150px;
+    position: absolute;
+    bottom: 350px;
+    right: 50px;
+    transform: translateX(-20%);
+}
+
+.rice1 img {
+    height: 150px;
+    position: absolute;
+    bottom: 150px;
+    right: 950px;
+    transform: translateX(-20%);
+}
+
+.cw img {
+    height: 150px;
+    position: absolute;
+    bottom: 150px;
+    right: 50px;
+    transform: translateX(-20%);
 }
 
 footer {
@@ -123,39 +202,76 @@ footer {
     position: relative;
 }
 
+.cool2 img {
+    height: 150px;
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+    transform: translateX(-20%);
+}
+
+.cafe2 img {
+    height: 150px;
+    position: absolute;
+    bottom: 150px;
+    right: 460px;
+    transform: translateX(-20%);
+}
+
+.fr2 img {
+    height: 150px;
+    position: absolute;
+    bottom: 100px;
+    right: 950px;
+    transform: translateX(-20%);
+}
+
 .cool {
-    height: 200px;
+    height: 400px;
     position: absolute;
     bottom: 20px;
-    right: 270px;
+    right: 100px;
     text-align: center;
     color: #355c7d;
     font-weight: normal;
     transform: translateX(-20%);
-    font-family: cursive;
 }
 
 .cafe {
-    height: 200px;
+    height: 400px;
     position: absolute;
     bottom: 20px;
-    right: 525px;
+    right: 480px;
     text-align: center;
     color: #355c7d;
     font-weight: normal;
     transform: translateX(-20%);
-    font-family: cursive;
 }
 
 .fr {
-    height: 200px;
+    height: 400px;
     position: absolute;
     bottom: 20px;
-    right: 525px;
+    right: 900px;
     text-align: center;
     color: #355c7d;
     font-weight: normal;
     transform: translateX(-20%);
-    font-family: cursive;
 }
 
+.social-icons {
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+}
+
+.social-icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: beige;
+    line-height: 0px;
+}
