@@ -168,6 +168,7 @@ header .navigation a:hover{
     bottom: 350px;
     right: 980px;
     transform: translateX(-20%);
+    background-color: #97c1a9;
 }
 
 .flat img {
@@ -176,6 +177,7 @@ header .navigation a:hover{
     bottom: 350px;
     right: 50px;
     transform: translateX(-20%);
+    background-color: #97c1a9;
 }
 
 .rice1 img {
@@ -184,6 +186,7 @@ header .navigation a:hover{
     bottom: 150px;
     right: 950px;
     transform: translateX(-20%);
+    background-color: #97c1a9;
 }
 
 .cw img {
@@ -192,6 +195,7 @@ header .navigation a:hover{
     bottom: 150px;
     right: 50px;
     transform: translateX(-20%);
+    background-color: #97c1a9;
 }
 
 footer {
@@ -209,6 +213,7 @@ footer {
     bottom: 100px;
     right: 100px;
     transform: translateX(-20%);
+    background-color: #97c1a9;
 }
 
 .cafe2 img {
@@ -217,6 +222,7 @@ footer {
     bottom: 150px;
     right: 460px;
     transform: translateX(-20%);
+    background-color: #97c1a9;
 }
 
 .fr2 img {
@@ -225,6 +231,7 @@ footer {
     bottom: 100px;
     right: 950px;
     transform: translateX(-20%);
+    background-color: #97c1a9;
 }
 
 .cool {
