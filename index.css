@@ -1,171 +1,87 @@
-@charset "utf-8";
-body{
-    background-color: #c1e1c1;
-    margin: 0px;
-    padding: 0px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,900;1,600;1,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
-header{
-    position: relative;
-    top: 0;
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+/* navbar styling */
+.navbar{
+    position: fixed;
+    padding: 30px 0;
     width: 100%;
-    padding: 30px 100px;
+    /*background: #82b99a; */
+    font-family: Poppins;
+}
+
+.navbar .max-width{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    background-color: #97c1a9;
+    justify-content: space-between;
 }
 
-header .logo{
-    position: relative;
+.navbar .logo a{
     color: #355c7d;
-    font-size: 30px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 800;
-    letter-spacing: 1px;
+    font-size: 35px;
+    font-weight: 600;
 }
 
-header .navigation a{
+.navbar .logo a span{
+    color: #2e8b57;
+}
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a{
     color: #355c7d;
-    text-decoration: none;
+    font-size: 18px;
     font-weight: 500;
-    letter-spacing: 1px;
-    padding: 2px 15px;
-    border-radius: 20px;
-    transition: 0.3s;
-    transition-property: background;
+    margin-left: 25px;
+    transition: color 0.3s ease;
 }
 
-header .navigation a:not(:last-child){
-    margin-right: 32px;
-}
-
-header .navigation a:hover{
-    background: #d5e8dd;
-}
-
-section{
-    width: 100%;
-    height: 95vh;
-    position: relative;
-}
-.text-container p:nth-child(1){
-    font-family: Calibri;
-    font-weight: bold;
-    color: #355c7d;
-    font-size: 22px;
-}
-.text-container p:nth-child(2){
-    font-family: Calibri;
-    font-weight: bold;
-    letter-spacing: 1px;
-    color: #355c7d;
-    font-size: 60px;
-}
-.text-container p:nth-child(3){
-    font-family: calibri;
-    color: #355c7d;
-    font-size: 30px;
-    line-height: 30px;
-}
-.text-container p{
-    line-height: 0px;
-    margin: 45px 0px 25px;
-}
-
-.text-container{
-    position: absolute;
-    left: 13%;
-    top: 42%;
-    transform: translate(-12%, -42%);
-}
-
-.text-container button{
-    width: 130px;
-    height: 42px;
-    border-radius: 10px;
-    font-family: calibri;
-    font-weight: bold;
-    font-size: 14px;
-    outline: none;
-    margin: 0px 10px;
-    background-color: #355c7d;
+.navbar .menu li a:hover{
     color: #d5e8dd;
 }
 
-.model{
-    height: 560px;
-    position: absolute;
-    bottom: 0px;
-    left: 70%;
-    transform: translateX(-70%);
-}
-
-.about-container{
-    width: 80%;
-    height: 300px;
-    background-color: #82b99a;
-    border-radius: 20px;
-    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+/* home section styling */
+.home{
     display: flex;
-    margin: -7% auto 20px auto;
-    position: relative;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.about-container img{
-    height: 100%;
+    background: url(Photos/Untitled-2.jpg) no-repeat center;
+    min-height: 500px;
+    font-family: Poppins;
 }
 
-.about-text{
-    width: 550px;
+.home .max-width{
+    margin: auto 0 auto 40px;
 }
 
-.about-text p:nth-child(1){
+.home .home-content .text-1{
+    font-size: 27px;
+}
+
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+.home .home-content .text-3{
+    font-size: 40pxpx;
+    margin: 5px 0;
+}
+
+.home .home-content .text-3 span{
     color: #355c7d;
-    font-family: myriad pro;
-    font-weight: bold;
-    font-size: 23px;
-    line-height: 0px;
-}
-
-.about-text p:nth-child(2){
-    color: #355c7d;
-    font-family: myriad pro;
-    font-weight: bold;
-    font-size: 23px;
-    line-height: 5px;
-}
-
-.about-text p:nth-child(3),
-.about-text p:nth-child(4){
-    font-family: calibri;
-    font-size: 20px;
-    line-height: 16px;
-}
-
-.about-text button{
-    width: 120px;
-    height: 40px;
-    border-radius: 10px;
-    font-family: calibri;
-    font-weight: bold;
-    font-size: 12px;
-    outline: none;
-    margin: 0px 10px;
-    background-color: #355c7d;
-    color: #d5e8dd;
-}
-
-.box-container{
-    display: flex;
-    justify-content: space-between;
-}
-
-.box-1, .box-2, .box-3, .box-4{
-    width: 300px;
-    height: 320px;
-    background-color: #82b99a;
-    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    font-weight: 500;
 }
