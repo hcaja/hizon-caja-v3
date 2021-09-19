@@ -9,7 +9,7 @@
 
 body{
     
-    background-color: #355c7d;
+    background-color: #c1e1c1;
 }
 
 header{
@@ -20,11 +20,12 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #97c1a9;
 }
 
 header .logo{
     position: relative;
-    color: #fff;
+    color: #355c7d;
     font-size: 30px;
     text-decoration: none;
     text-transform: uppercase;
@@ -33,7 +34,7 @@ header .logo{
 }
 
 header .navigation a{
-    color: #fff;
+    color: #355c7d;
     text-decoration: none;
     font-weight: 500;
     letter-spacing: 1px;
@@ -48,7 +49,7 @@ header .navigation a:not(:last-child){
 }
 
 header .navigation a:hover{
-    background: #aaa;
+    background: #d5e8dd;
 }
 
 .card{
