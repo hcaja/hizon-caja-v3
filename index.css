@@ -38,7 +38,7 @@ header .navigation a{
 }
 
 header .navigation a:not(:last-child){
-    margin-right: 30px;
+    margin-right: 32px;
 }
 
 header .navigation a:hover{
@@ -51,20 +51,20 @@ section{
     position: relative;
 }
 .text-container p:nth-child(1){
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Calibri;
     font-weight: bold;
     color: #355c7d;
     font-size: 22px;
 }
 .text-container p:nth-child(2){
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Calibri;
     font-weight: bold;
     letter-spacing: 1px;
     color: #355c7d;
     font-size: 60px;
 }
 .text-container p:nth-child(3){
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: calibri;
     color: #355c7d;
     font-size: 30px;
     line-height: 30px;
@@ -115,9 +115,57 @@ section{
     align-items: center;
 }
 .about-container img{
-    height: 300px;
+    height: 100%;
 }
 
 .about-text{
     width: 550px;
+}
+
+.about-text p:nth-child(1){
+    color: #355c7d;
+    font-family: myriad pro;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 0px;
+}
+
+.about-text p:nth-child(2){
+    color: #355c7d;
+    font-family: myriad pro;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 5px;
+}
+
+.about-text p:nth-child(3),
+.about-text p:nth-child(4){
+    font-family: calibri;
+    font-size: 20px;
+    line-height: 16px;
+}
+
+.about-text button{
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 12px;
+    outline: none;
+    margin: 0px 10px;
+    background-color: #355c7d;
+    color: #d5e8dd;
+}
+
+.box-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-1, .box-2, .box-3, .box-4{
+    width: 300px;
+    height: 320px;
+    background-color: #82b99a;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
 }
