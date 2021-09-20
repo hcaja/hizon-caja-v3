@@ -205,17 +205,101 @@ nav ul li a:hover{
     text-transform: uppercase;
 }
 
-table, th, td{
-    border: 1px solid black;
-    border-collapse: separate;
-    border-spacing: 10px;
-    background-color: #82b99a;
-    margin-left: auto;
-    margin-right: auto;
-    height: 50px;
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact .content{
+    max-width: 800px;
     text-align: center;
-    font-family: Poppins;
-    margin-top: 50px;
+}
+
+.contact .content h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: #355c7d;
+}
+
+.contact .content p{
+    font-weight: 300;
+    color: #355c7d;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .contactInfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.container .contactInfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: #d5e8dd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; 
+    font-size: 22px;
+}
+
+.container .contactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #355c7d;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.container .contactInfo .box .text h3{
+    font-weight: 500;
+    color: #355c7d;
+}
+
+.contact-form{
+    width: 40px;
+    padding: 40px;
+    background: #355c7d;
+}
+.contact-form h2{
+    font-size: 30px;
+    color: #c1e1c1;
+    font-weight: 500;
+}
+
+.contact-form .input-box{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contact-form .input-box input{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
 }
 
 footer{
@@ -278,4 +362,29 @@ footer p:nth-child(2){
     background-color: #d5e8dd;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
     transition: all ease 0.5s;
+}
+
+.to-top{
+    background: white;
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: #1f1f1f;
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s;
+}
+
+.to-top.active{
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: -1;
 }

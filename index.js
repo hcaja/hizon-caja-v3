@@ -1,18 +1,9 @@
-$(document).ready(function(){
-    $(window).scroll(function(){
-        if(this.scrollY > 20){
-            $('.navbar').addclass("sticky");
-        }else{
-            $('.navbar').removeclass("sticky");
-        }
-});
+const toTop = document.querySelector(".to-top")
 
-// toggle menu/navbar script
-    $('menu-btn').click(function(){
-        $arguments('.navbar .menu').toggleClass("active");
-        $arguments('.menu-btn i').toggleClass("active");
-    });
-});
-
-
-
+window.addEventListener("scroll", () => {
+    if(window.pageYOffset > 100) {
+        toTop.classList.add("active");
+    } else {
+        toTop.classList.remove("active");
+    }
+})
