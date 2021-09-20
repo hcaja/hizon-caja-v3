@@ -385,11 +385,10 @@ footer p:nth-child(2){
     opacity: 0;
     pointer-events: none;
     transition: all .4s;
-    display: flex;
 }
 
 .to-top.active{
     bottom: 32px;
     pointer-events: auto;
-    opacity: -1;
+    opacity: 5;
 }
