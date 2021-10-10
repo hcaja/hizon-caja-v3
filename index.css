@@ -110,7 +110,7 @@ nav ul li a:hover{
     left: 70%;
     transform: translateX(-70%);
     border-radius: 50%!important;
-    box-shadow: 0 o.5rem 1rem rgba(0,0,0,.15)!important;
+    box-shadow: 0 o.5rem 1rem rgba(0,0,0,.15);
     background-color: #355c7d!important;
 }
 
@@ -284,9 +284,10 @@ nav ul li a:hover{
 }
 
 .contact-form{
-    width: 40px;
-    padding: 40px;
+    width: 200px;
+    padding: 100px;
     background: #355c7d;
+    border-radius: 10%;
 }
 .contact-form h2{
     font-size: 30px;
@@ -312,7 +313,7 @@ nav ul li a:hover{
 
 footer{
     background-color: #82b99a;
-    margin-top: 300px;
+    margin-top: 50px;
     height: 300px;
     display: flex;
     flex-direction: column;
