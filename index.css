@@ -311,6 +311,11 @@ nav ul li a:hover{
     outline: none;
 }
 
+.map p{
+    display: flex;
+    justify-content: center;
+}
+
 footer{
     background-color: #82b99a;
     margin-top: 50px;
